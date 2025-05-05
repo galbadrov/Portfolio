@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    height: fit-content;
+    background-image: url(../IMG/index_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.monogram{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    position:fixed;
+    inset-inline-start: 0;
+    inset-block-start: 0;
+}
+
+.monogram img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+/*----------------- body ------------------*/
+
+#ime {
+    font-size: 400%;
+    margin-top: 10%;
+    margin-bottom: 0;
+    color: black;
+    text-align: center;
+    transition: all 2s ease;
+    position: relative;
+}
+
+#ime.scrolled {
+    margin-top: 10px;
+    position: fixed;
+    top: 10px;
+    left: 130px;
+    font-size: 65px;
+    text-align: left;
+    color: white;
+}
+
+h2 {
+    font-size: 200%;
+    margin-top: 2%;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#ikone{
+    display:flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: center;
+}
+
+#ikone a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+#ikone img{
+    height: 40px;
+    width: 40px;
+}
+
+/* Fade-out elementi */
+.fade {
+    opacity: 1;
+    transition: all 0s ease;
+}
+
+.fade-out {
+    margin-top: 10%;
+    opacity: 0;
+}
+
+/* dalje besedilo*/
+.space{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.podatki{
+    background-color: rgb(216, 216, 216);
+    min-height: 400px;
+    height: 40%;
+    width: 100%;
+}
