@@ -41,7 +41,7 @@ body {
 #ime.scrolled {
     margin-top: 10px;
     position: fixed;
-    top: 10px;
+    top: 18px;
     left: 130px;
     font-size: 65px;
     text-align: left;
@@ -124,6 +124,10 @@ h2 {
     width: 180px;
     height: 3px;
     background-color: black;
+}
+
+.aboutme{
+    margin-bottom: 0;
 }
 
 #opis{
